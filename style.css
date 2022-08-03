@@ -1,0 +1,104 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid-item1 {
+    grid-area: box1;
+    background-image: url("https://st.depositphotos.com/1003697/4971/i/950/depositphotos_49719803-stock-photo-business-man-working-on-laptop.jpg");
+    padding: 50px;
+    font-size:18px;
+}
+.grid-item2 {
+    grid-area: box2;
+    background-color: #F5E3D7;
+}
+.gridbox2{
+    padding: 15px;
+}
+.mt{
+    margin-top: 4rem;
+}
+.grid-item3 {
+    padding: 15px;
+    grid-area: box3;
+}
+.grid-item4 {
+    grid-area: box4;
+    background-image: url("https://media.istockphoto.com/photos/shot-of-a-young-businessman-using-a-laptop-in-a-modern-office-picture-id1354898581?b=1&k=20&m=1354898581&s=170667a&w=0&h=Jkv4uO6gEaLFtz6F22ZrEk4VQljqLNKMuVpdRlIYoEY=");
+    background-color: #EBAF4F;
+    
+}
+.grid-item5 {
+    grid-area: box5;
+}
+.grid-item6 {
+    grid-area: box6;
+    background-color: #EBAF4F;
+}
+.grid-item7 {
+    grid-area: box7;
+    background-color: #FB683D;
+}
+.grid-item8 {
+    grid-area: box8;
+}
+.grid-item9 {
+    grid-area: box9;
+}
+.grid-item10 {
+    grid-area: box10;
+}
+.grid-item11 {
+    grid-area: box11;
+    background-color: #FB683D;
+}
+.grid-item12 {
+    grid-area: box12;
+    background-color: #EBAF4F;
+}
+.grid-item13 {
+    grid-area: box13;
+}
+.grid-item14 {
+    grid-area: box14;
+    background-color: #FB683D;
+}
+.grid-item15 {
+    grid-area: box15;
+}
+.grid-item16 {
+    grid-area: box16;
+    background-color: #FB683D;
+}
+.grid-container{
+    width:1200px;
+    margin: auto;
+    height: 2000px;
+    display: grid;
+    grid-template-areas: 
+    "box1 box1 box2 box2"
+    "box3 box3 box4 box5"
+    "box6 box7 box8 box9"
+    "box10 box10 box11 box11"
+    "box12 box12 box13 box13"
+    "box14 box14 box15 box15"
+    "box16 box16 box16 box16"
+    ;
+
+}
+.btn{
+    padding:10px 15px;
+    font-weight:bold;
+    border-radius: 25px;
+}
+.grid-container >div{
+    border: 1px solid red;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    font-size:13px;
+}
+.small{
+    font-size:12px;
+}
